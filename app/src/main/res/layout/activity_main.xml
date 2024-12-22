@@ -8,4 +8,188 @@
     android:background="#020202"
     tools:context=".MainActivity">
 
+    <ImageButton
+        android:id="@+id/ibMainSlot1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@string/game_slot_1_description"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/ibMainSlot4"
+        app:layout_constraintEnd_toStartOf="@+id/ibMainSlot2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/ibMainSlot2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@string/game_slot_2_description"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/ibMainSlot5"
+        app:layout_constraintEnd_toStartOf="@+id/ibMainSlot3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibMainSlot1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/ibMainSlot3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@string/game_slot_3_description"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/ibMainSlot6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibMainSlot2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/ibMainSlot4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@string/game_slot_4_description"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/ibMainSlot7"
+        app:layout_constraintEnd_toStartOf="@+id/ibMainSlot5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibMainSlot1" />
+
+    <ImageButton
+        android:id="@+id/ibMainSlot5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@string/game_slot_5_description"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/ibMainSlot8"
+        app:layout_constraintEnd_toStartOf="@+id/ibMainSlot6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibMainSlot4"
+        app:layout_constraintTop_toBottomOf="@+id/ibMainSlot2" />
+
+    <ImageButton
+        android:id="@+id/ibMainSlot6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@string/game_slot_6_description"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/ibMainSlot9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibMainSlot5"
+        app:layout_constraintTop_toBottomOf="@+id/ibMainSlot3"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/ibMainSlot7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@string/game_slot_7_description"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/tvMainMessage"
+        app:layout_constraintEnd_toStartOf="@+id/ibMainSlot8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibMainSlot4" />
+
+    <ImageButton
+        android:id="@+id/ibMainSlot8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@string/game_slot_8_description"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/tvMainMessage"
+        app:layout_constraintEnd_toStartOf="@+id/ibMainSlot9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibMainSlot7"
+        app:layout_constraintTop_toBottomOf="@+id/ibMainSlot5" />
+
+    <ImageButton
+        android:id="@+id/ibMainSlot9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@string/game_slot_9_description"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/tvMainMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibMainSlot8"
+        app:layout_constraintTop_toBottomOf="@+id/ibMainSlot6"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvMainMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#503c54"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/x_turn_message"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnMainPlayAgain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnMainPlayAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/play_again"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

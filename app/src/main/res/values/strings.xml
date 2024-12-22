@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Tic Tac Toe</string>
+    <string name="game_slot_1_description">game slot 1</string>
+    <string name="play_again">play again</string>
+    <string name="game_slot_2_description">game slot 2</string>
+    <string name="game_slot_3_description">game slot 3</string>
+    <string name="game_slot_4_description">game slot 4</string>
+    <string name="game_slot_5_description">game slot 5</string>
+    <string name="game_slot_6_description">game slot 6</string>
+    <string name="game_slot_7_description">game slot 7</string>
+    <string name="game_slot_8_description">game slot 8</string>
+    <string name="game_slot_9_description">game slot 9</string>
+    <string name="x_turn_message">X play</string>
 </resources>

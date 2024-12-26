@@ -11,4 +11,8 @@
     <string name="game_slot_8_description">game slot 8</string>
     <string name="game_slot_9_description">game slot 9</string>
     <string name="x_turn_message">X play</string>
+    <string name="o_turn_message">O play</string>
+    <string name="x_win_message">Player X win</string>
+    <string name="o_win_message">Player O win</string>
+    <string name="draw_message">draw!!</string>
 </resources>
